@@ -1,4 +1,4 @@
-package template
+package krb5writer
 
 import (
 	"encoding/hex"

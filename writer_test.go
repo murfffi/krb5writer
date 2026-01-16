@@ -1,4 +1,4 @@
-package template
+package krb5writer_test
 
 import (
 	"log"
@@ -7,6 +7,7 @@ import (
 
 	"github.com/jcmturner/gokrb5/v8/config"
 	"github.com/jcmturner/krb5test"
+	"github.com/murfffi/krb5writer"
 	"github.com/stretchr/testify/require"
 )
 
@@ -22,7 +23,7 @@ func TestE2E(t *testing.T) {
 	conf := kdc.KRB5Conf
 	t.Logf("%+v", conf)
 	krbConfFile := t.TempDir() + "/krb5.conf"
-	err = WriteKrb5Conf(conf, krbConfFile)
+	err = krb5writer.WriteKrb5Conf(conf, krbConfFile)
 	require.NoError(t, err)
 
 	loadedConf, err := config.Load(krbConfFile)
