@@ -52,6 +52,9 @@ github.com/jcmturner/krb5test
 ## explicit; go 1.13
 github.com/jcmturner/rpc/v2/mstypes
 github.com/jcmturner/rpc/v2/ndr
+# github.com/murfffi/gorich v0.3.0
+## explicit; go 1.24
+github.com/murfffi/gorich/helperr
 # github.com/pmezard/go-difflib v1.0.0
 ## explicit
 github.com/pmezard/go-difflib/difflib
