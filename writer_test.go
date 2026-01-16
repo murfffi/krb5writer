@@ -10,7 +10,7 @@ import (
 	"github.com/stretchr/testify/require"
 )
 
-func TestHello(t *testing.T) {
+func TestE2E(t *testing.T) {
 	l := log.New(os.Stderr, "KDC Test Server: ", log.LstdFlags)
 	p := make(map[string][]string)
 	p["testuser1"] = []string{"testgroup1"}

@@ -1,2 +1,3 @@
 # krb5writer
-Go template repo
+
+Writer for krb5.conf configuration in jcmturner/gokrb5.

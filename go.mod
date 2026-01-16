@@ -1,4 +1,4 @@
-module github.com/sclgo/template
+module github.com/murfffi/krb5writer
 
 go 1.24.1
 
